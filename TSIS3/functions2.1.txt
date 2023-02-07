@@ -1,0 +1,5 @@
+def single_score(movie):
+    for m in movies:
+        if m["name"] == movie and m["imdb"] > 5.5:
+            imdb_score = True 
+return imdb_score

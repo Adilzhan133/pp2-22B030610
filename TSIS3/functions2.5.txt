@@ -1,0 +1,9 @@
+def avg_imdb_acc_to_cat(movies,cat_name): 
+    cat_movies=return_movie_category(movies,cat_name)
+    avg_score=avg_imdb_score(cat_movies)
+    return avg_score
+
+print ''
+print 'Average IMDB of movies in the Thriller category is: '
+s2=avg_imdb_acc_to_cat(movies,'Thriller')
+print s2
